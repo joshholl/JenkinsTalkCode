@@ -1,7 +1,7 @@
 pipeline {
 	agent {
         	docker { image 'node:current-alpine' }
-    	} 
+    } 
 	stages {
 		stage('build') {
 			steps {
